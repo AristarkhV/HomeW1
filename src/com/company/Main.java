@@ -38,10 +38,10 @@ public class Main {
             case 3: {
                 Power newPower = new Power();
                 System.out.println("Enter number");
-                int Num = newPower.getInt();
+                int number = newPower.getInt();
                 System. out.println("Enter power");
-                int Pow = newPower.getInt();
-                System.out.println(Num + " ^ " + Pow + " = " + newPower.getPower(Num, Pow));
+                int power = newPower.getInt();
+                System.out.println(number + " ^ " + power + " = " + newPower.getPower(number, power));
                 System.exit(0);
             }
             default: {
