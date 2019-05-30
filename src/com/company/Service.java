@@ -9,7 +9,7 @@ public class Service {
         } else {
             System.out.println("You made a mistake when entering a number. Try again.");
             scan.next();
-            number = getInt();//рекурсия
+            number = getInt();
         }
         return number;
     }
