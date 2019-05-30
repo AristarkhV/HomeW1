@@ -17,16 +17,16 @@ public class Main {
             case 1: {
                 FootballMatch newFootballMatch = new FootballMatch();
                 System.out.println("Enter the result of team 1:");
-                int RealOutcome1 = newFootballMatch.getInt();
+                int firstRealOutcome = newFootballMatch.getInt();
                 System.out.println("Enter the result of team 2:");
-                int RealOutcome2 = newFootballMatch.getInt();
+                int secondRealOutcome = newFootballMatch.getInt();
                 System.out.println("Enter the forecast of team 1");
-                int Forecast1 = newFootballMatch.getInt();
+                int firstForecast = newFootballMatch.getInt();
                 System.out.println("Enter the forecast of team 2:");
-                int Forecast2 = newFootballMatch.getInt();
-                System.out.println("The match is completed - " + RealOutcome1 + ":" + RealOutcome2
-                        + ", user forecast - " + Forecast1 + ":" + Forecast2);
-                System.out.println("Match result: " + newFootballMatch.MatchForecast(RealOutcome1, RealOutcome2, Forecast1, Forecast2));
+                int secondForecast = newFootballMatch.getInt();
+                System.out.println("The match is completed - " + firstRealOutcome + ":" + secondRealOutcome
+                        + ", user forecast - " + firstForecast + ":" + secondForecast);
+                System.out.println("Match result: " + newFootballMatch.MatchForecast(firstRealOutcome, secondRealOutcome, firstForecast, secondForecast));
                 System.exit(0);
             }
             case 2: {
